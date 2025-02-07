@@ -7,4 +7,4 @@ while i<5:
     if i==3:
         break
 else:
-    print(0)
+    print(0, sep="\n")
