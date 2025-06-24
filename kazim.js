@@ -106,7 +106,16 @@ for(const key of keys)
 const values = Object.values(dog);
 for(const value of values);
     console.log(values);
-const entries = Object.entries(dog);
+/*const entries = Object.entries(dog);
 for(const entry of entries);
     console.log(`key: ${entry[0]} => Value: ${entry[1]}`);
-//
+*/
+// Exercise
+const newItem2 = new GroceryItem('Banana', 5);
+for(const key of Object.keys(newItem2))
+    console.log(key);
+
+for(const value of Object.values(newItem2))
+    console.log(value); 
+for(const entry of Object.entries(newItem2))
+    console.log(entry);
