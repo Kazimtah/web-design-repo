@@ -1,6 +1,6 @@
 function band_Account_status(intialbalance){
 
-    let intialbalance = intialbalance; //private variable to store balance
+    let balance = intialbalance; //private variable to store balance
     
     // define private method to validate the amount
     const isValidAmount = function(amount){
