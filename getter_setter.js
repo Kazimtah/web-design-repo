@@ -37,5 +37,5 @@ function Programmar(name, preferedPrgromming){
 }
 const programmer = new Programmar('Alice', 'Javascript');
 console.log(programmer.name);
-programmer.name = 'Steven'
+programmer.name = '';
 console.log(programmer.name);
