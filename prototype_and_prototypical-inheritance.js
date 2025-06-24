@@ -47,6 +47,44 @@ let superAdmin = {
         console.log(`${this.fullName} is managing admin`);
     }
 }
-admin.fullName = "Bruce Wayne";
-console.log(admin.fullName);
-console.log(user.fullName);
+//admin.fullName = "Bruce Wayne";
+//console.log(admin.fullName);
+// console.log(user.fullName);
+for( let key in admin)
+    console.log(key)
+
+console.log(Object.keys(admin));
+const programmerPrototype = {
+    writeCode(){
+        console.log(`Writing code in ${this.preferedLanguage}`);
+    },
+    drinkCoffe: function(){
+        console.log('Drinking Confee');
+    }
+}
+
+function Programmer( name, preferedLanguage){
+    let privateName = name;
+
+    this.preferedLanguage = preferedLanguage;
+
+    Object.defineProperties(this,{
+        'name': {
+            get: function(){
+                return privateName;
+            },
+            set: function(newName){
+                privateName = newName;
+            }
+        }
+    })
+    // inherite common behavior
+    Object.setPrototypeOf(this, programmerPrototype);
+}
+
+const jsprogrammer = new Programmer('Alice', 'Javascript');
+jsprogrammer.writeCode();
+jsprogrammer.drinkCoffe();
+console.log(jsprogrammer.name);
+jsprogrammer.name = 'Steven';
+console.log(jsprogrammer.name);
