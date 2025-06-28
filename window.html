@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamamah Hotel</title>
+</head>
+<body>
+
+    <p id="p1">This is a Paragraph</p>
+    <img src="image.png" alt="Image" id="image">
+    <button id="btn1" onclick="changing();">Click here</button>
+
+    <script>
+        function changing(){
+            document.getElementById('btn1').innerHTML = 'changed';
+            document.getElementById('p1').style.color = 'purple';
+            document.getElementById('image').src= 'image.png'
+        }
+       
+    </script>
+</body>
+</html>
