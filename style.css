@@ -1,0 +1,19 @@
+a{
+    width: 15rem;
+    height: 3rem;
+    background-color: lightgreen;
+    border: 1px solid rgb(219,116,20);
+    text-align: center;
+    line-height: 3rem;
+
+.btn1{
+    display: inline;
+
+}
+.btn2 {
+    display: block;
+
+}
+.btn3 {
+    display: inline-block;
+}
