@@ -13,3 +13,4 @@ FrondEndProgrammer.prototype = Object.create(Programmer.prototype);
 const steven = new FrondEndProgrammer("Steven");
 console.log(FrondEndProgrammer.prototype.constructor === Programmer);
 steven.code();
+FrondEndProgrammer.prototype.constructor === FrondEndProgrammer;
