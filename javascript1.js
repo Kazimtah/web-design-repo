@@ -24,3 +24,24 @@ const programmer = new Programmer("Steven","Javascript");
 programmer.writeCode();
 programmer.drinkCoffee();
 programmer.StartDay();
+
+function FrontEndProgrammer (name){
+    Programmer.call(this, name);
+
+}
+function BackEndProgrammer(name){
+    Programmer.call(this, name);
+
+}
+
+FrontEndProgrammer.prototype = Object.create(Programmer.prototype);
+BackEndProgrammer.prototype = Object.create(Programmer.prototype);
+
+FrontEndProgrammer.prototype.constructor = FrontEndProgrammer;
+BackEndProgrammer.prototype.constructor = BackEndProgrammer;
+
+
+const joe = new FrontEndProgrammer('Joe');
+joe.code();
+joe.debug();
+joe.meeting();
