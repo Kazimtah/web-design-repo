@@ -1,0 +1,14 @@
+button{
+    width: 5rem;
+    height: 5rem;
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    color: white;
+    font-weight: bold;
+}
+p{
+    width: 8rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+}
