@@ -10,3 +10,8 @@ def process_data(data):
     return procesed_data
 recieved_data = None
 print(process_data(recieved_data))
+
+def get_letter_gerad(grade):
+    grade_score = 'A' if grade >=90 else 'B' if grade >=80 else 'c' if grade >=70 else 'D' 
+    return grade_score
+
