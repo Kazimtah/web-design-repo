@@ -15,3 +15,6 @@ def get_letter_gerad(grade):
     grade_score = 'A' if grade >=90 else 'B' if grade >=80 else 'c' if grade >=70 else 'D' 
     return grade_score
 
+my_fruits = ["apple", 'bannana', 'lime']
+for i in my_fruits:
+    print(i)
