@@ -37,3 +37,11 @@ for key, value in my_scores.items():
 
 print(scores)
 scores_dict = {k: v *10 for k,v in my_scores.items()}
+
+nums = [10,2,5,100]
+squar_num = [num**2 for num in nums]
+print(squar_num)
+squar_num2 = []
+for num in nums:
+    squar_num2.append(num*num)
+print(squar_num2)
