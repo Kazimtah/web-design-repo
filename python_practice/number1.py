@@ -3,7 +3,7 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "83b1c763",
+   "id": "a22ddde5",
    "metadata": {},
    "outputs": [
     {
@@ -28,7 +28,7 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "07d06139",
+   "id": "b66b9644",
    "metadata": {},
    "outputs": [
     {
@@ -51,7 +51,7 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "7edcb21a",
+   "id": "e4d9b49f",
    "metadata": {},
    "outputs": [
     {
@@ -102,7 +102,7 @@
   {
    "cell_type": "code",
    "execution_count": 21,
-   "id": "b73873c4",
+   "id": "5cbea7e3",
    "metadata": {},
    "outputs": [
     {
@@ -143,7 +143,7 @@
   {
    "cell_type": "code",
    "execution_count": 39,
-   "id": "28ef24b2",
+   "id": "e89db5bc",
    "metadata": {},
    "outputs": [
     {
@@ -173,11 +173,12 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 41,
-   "id": "4a169501",
+   "execution_count": 45,
+   "id": "4e15cda5",
    "metadata": {},
    "outputs": [],
    "source": [
+    "import numpy as np\n",
     "a = np.arange(25).reshape(5,5)"
    ]
   }
